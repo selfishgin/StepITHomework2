@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dCPLTIrf0btoUtv4N0Pf2882w5sfMhaVoDJIQDgm9I4SK4Bqpz4FeHJ+RvIRDOt+tiop66HbPMWu67smV4neMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Antec\\source\\repos\\selfishgin\\StepITHomework2\\Screenshot\\Program\\Program.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Antec\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Antec\\.nuget\\packages\\system.drawing.common\\8.0.8\\system.drawing.common.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
