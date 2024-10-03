@@ -1,0 +1,97 @@
+*{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    background-color: rgb(189, 46, 60);
+
+}
+
+h1{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.product-card{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(189, 46, 60);
+    width: 250px;
+    height: 440px;
+    margin-top: 50%;
+    border: 1px solid black;
+    border-radius: 3%;
+    box-shadow: 0px 0px 8px 0px;
+}
+
+
+.product-image img{
+    background-color: rgb(189, 46, 60);
+    width: 80%;
+}
+
+.product-image div{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 500;
+    background-color: rgb(189, 46, 60);
+}
+
+.color-product{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 3px;
+    
+}
+
+.color-product button{
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 0px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.size-product{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 3px;
+}
+
+.size-product button{
+    border: 1px solid black;
+    font-weight: 800;
+    font-family: "Afacad Flux", sans-serif;
+    color: white;
+    height: 35px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.R{
+    background-color: red;
+}
+
+.G{
+    background-color: green;
+}
+
+.B{
+    background-color: blue;
+}
+
+.Y{
+    background-color: yellow;
+}
+
+.Buy{
+    font-family: "Afacad Flux", sans-serif;
+    background-color: black;
+    font-weight: 500;
+    color: white;
+    height: 35px;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
