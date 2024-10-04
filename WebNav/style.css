@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;  
+}
+ 
+ 
+ 
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+ 
+footer{
+    width: 70%;
+    padding-top: 40px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+ 
+ 
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px; /*gap olan yerde mutleq display flex olmalidir*/
+}
+ 
+ 
+a{
+    text-decoration: none;
+    color: gray;
+ 
+}
+ 
+.listHeader {
+ 
+    margin-bottom: 10px;
+ 
+}
+ 
+.listHeader a{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+ 
+ 
+.footerLinks{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.socialMedia {
+    display: flex;
+    gap: 20px;
+}
+ 
+.socialMedia a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    border-radius: 100%;
+}
+ 
+.communication{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.communication p{
+    font-weight: 600;
+}
+ 
+ 
+.contact{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.contact p{
+    margin-bottom: 10px;
+    color: gray;
+}
+ 
+.contact a{
+    color: black;
+    font-weight: 800;
+}
+ 
+#section1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.10);
+    gap: 20px;
+    height: 50px;
+    width: 70%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    gap: 45px;
+    width: 35%;
+
+}
+ 
+ 
+.logo{  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 144px;
+    top: 0;
+    left: 0;
+}
+
+
+.login{
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    background-color: #FFC628;
+    border-width: 0px;
+}
+
+
+
+.navLogo{
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0, 0.10);
+    color: rgb(0, 0, 0, 0.30);
+    background-color: white;
+
+}
+
+
+
+.xeber{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 40%;
+    width: 70%;
+}
+
+
+.card1, .card2, .card3{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0, 0.10);
+    border-radius: 12px;
+    margin: 10px;
+    margin-top: 30px;
+    height: 180px;
+    width: 320px;
+}
+
+b{
+    margin: 5px;
+}
+
+.butun-xeberler{
+    color: #0091fe;;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0091fe;
+    border-radius: 12px;
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+    background-color: white;
+}
+
+u{
+    color: lightgray;
+}
