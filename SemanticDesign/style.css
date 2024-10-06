@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px;
+}
+
+
+.pageTopDiv{
+    height: 84px;
+    background-color: #F5F7FA; /* BUNU MUVEQQETI QOYMUSAM DIV-IN SERHEDLERINI GORMEK UCUN! NORMALDA RENG: #F5F7FA*/
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navBarUL{
+    flex-direction: row;
+    list-style-type: none;
+    gap: 55px;
+}
+
+
+.navBarUL a{
+    color: #18191F;
+    text-decoration: none;
+}
+
+
+.Logo, .navBarUL{
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;   
+}
+
+
+.buttonDiv{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 5px;
+}
+
+.login, .sign-up{
+    width: 91px;
+    height: 40px;
+}
+
+
+.login, .sign-up, .navBarUL{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.sign-up{
+    background-color: #4CAF4F;
+    color: white;
+    border-radius: 6px;
+    border-color: #4CAF4F;
+    border-style: none;    
+}
+
+
+.login{
+    background-color: white;
+    color: #4CAF4F;
+    border-style: none;  
+    border-radius: 6px;
+}
+
+
+.midDiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #F5F7FA; /* BUNU MUVEQQETI QOYMUSAM DIV-IN SERHEDLERINI GORMEK UCUN! NORMALDA RENG: #F5F7FA*/    
+    height: 599px;
+
+}
+
+.midDiv1Text{
+    display: block;
+    justify-content: left;
+    
+}
+
+.lessonsP, .lessonsFromP{
+    font-size: 64px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.lessonsFromP{
+    color: #4CAF4F;
+}
+
+.lessonsP{
+    color: #4D4D4D;
+}
+
+.whereSpan{
+    font-family: "Inter", sans-serif;
+    color: #717171;
+
+}
+
+.whereSpanDiv{
+    margin-top: 10px;
+
+}
+
+.illustrationDiv{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.registerButDiv{
+    margin-top: 50px;
+    display: flex;
+}
+
+.registerBut{
+    width: 128px;
+    height: 52px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    background-color: #4CAF4F;
+    color: white;
+    border-color: #4CAF4F;
+    border-style: none; 
+
+}
+
+
+.dotButDiv{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background-color: #F5F7FA; /* BUNU MUVEQQETI QOYMUSAM DIV-IN SERHEDLERINI GORMEK UCUN! NORMALDA RENG: #F5F7FA*/    
+}
+
+
+.first-dot-but, .second-dot-but, .third-dot-but{
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    background-color: #4CAF4F;
+    border-style: none;   
+}
+
+.second-dot-but, .third-dot-but{
+    opacity: 30%;
+}
+
+
+.our-client-p{
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #4D4D4D;
+}
+
+.our-client-a{
+    margin-top: 15px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #717171;
+}
+
+
+.our-client-p, .our-client-a{
+    display: flex;
+    justify-content: center;
+}
+
+
+.clients-logos-div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.helping-div-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    background-color: #F5F7FA; /* BUNU MUVEQQETI QOYMUSAM DIV-IN SERHEDLERINI GORMEK UCUN! NORMALDA RENG: #F5F7FA*/    
+    height: 300px;
+
+}
+
+.helping-div{
+    background-color: #F5F7FA; /* BUNU MUVEQQETI QOYMUSAM DIV-IN SERHEDLERINI GORMEK UCUN! NORMALDA RENG: #F5F7FA*/    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.helping-p, .helpingFromP{
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.helpingFromP{
+    color: #4CAF4F;
+}
+
+.helping-p{
+    color: #4D4D4D;
+}
+
+.helpingSpan{
+    font-family: "Inter", sans-serif;
+    color: #717171;
+
+}
+
+.helpingSpanDiv{
+    margin-top: 10px;
+}
+
+
+
+.icon-div{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
+.hug-icon-div, .clubs-icon-div, .click-icon-div, .payments-icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    p{
+        margin-top: 30px;
+        font-size: 36px;
+        font-weight: 600;
+        font-family: "Inter", sans-serif;
+        color: #4D4D4D;
+    }
+    
+    a{
+        margin-top: 15px;
+        font-weight: 400;
+        font-family: "Inter", sans-serif;
+        color: #717171;
+    }
+}
+
+.all-table-div{
+    gap: 40px;
+    display: flex;
+    padding: 100px;
+}
+
+
+
+.caring-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white; /* WHITE */
+    height: 600px;
+    text-align: center;
+}
+
+
+.caring-div-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 550px;
+    gap: 10px;
+    p{
+        margin-top: 30px;
+        font-size: 36px;
+        font-weight: 600;
+        font-family: "Inter", sans-serif;
+        color: #4D4D4D;
+    }
+    
+    a{
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: "Inter", sans-serif;
+        color: #717171;
+    }
+}
+
+.caring-cards-div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.card1-div, .card2-div, .card3-div{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: white; /* white */ 
+    border-radius: 8px;
+    height: 366px;
+}
+
+
+.card1-image-div, .card2-image-div, .card3-image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+
+.card1-box-div, .card2-box-div, .card3-box-div{
+    gap: 15px;
+    padding: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #717171;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F5F7FA;  /* #F5F7FA;    */ 
+    width: 317px;
+    height: 176px;
+    bottom: 70px;
+}
+
+
+.card1-readmore-div, .card2-readmore-div, .card3-readmore-div{
+    color: #4CAF4F;
+    gap: 10px;
+}
+
+
+.howto-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: white; /* white */
+    flex-direction: row;
+    height: 600px;
+}
+
+
+.howto-image-div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.howto-text-div{
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+    width: 551px;
+    height: 300px;
+    p{
+        font-size: 36px;
+        font-weight: 600;
+        font-family: "Inter", sans-serif;
+        color: #4D4D4D;
+    }
+    
+    a{
+        font-weight: 400;
+        font-size: 14px;
+        font-family: "Inter", sans-serif;
+        color: #717171;
+    }
+}
+
+.learnMore-div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 30%;
+    right: 50%;
+    transform: translate(50%, -100%);
+}
+
+.learnMore{
+    width: 151px;
+    height: 52px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    background-color: #4CAF4F;
+    color: white;
+    border-color: #4CAF4F;
+    border-style: none; 
+}
