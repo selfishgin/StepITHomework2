@@ -1,0 +1,172 @@
+body{
+    padding: 20px;
+}
+
+
+.myForm{
+    /* border: 1px solid #333333; */
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 800px;
+    width: 500px;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 740px;
+    margin: 35px;
+}
+
+.join-title-div{
+    background-color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    left: 0%;
+    width: 376px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+.name-div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.first-name-div, .last-name-div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.email-div{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    
+}
+
+.password-div{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.join-but-div{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.join-but-div input{
+    background-color: black;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    width: 320px;
+    height: 56px;
+    border-radius: 90px;
+}
+
+
+.already-mem-div{
+    margin: 25px;
+    font-size: 16px;
+}
+
+.policy-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-in-div{
+    margin: 10px;
+    font-size: 16px;
+    
+    
+}
+
+.by-proceeding-div{
+    text-align: center;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.recaptcha-div{
+    text-align: center;
+    margin: 10px;
+    font-size: 12px;
+}
+
+form input{
+    height: 48px;
+    border-radius: 4px;
+    border: 2px solid #e0e0e0;
+    padding-left: 10px;
+}
+
+form input:focus{
+    outline: none;
+}
+
+a, span{
+    color: #333333;
+}
+
+.sign-in-logo-div{
+    background-color: white;
+    height: 68px;
+    width: 376px;
+}
+
+.sign-in-logo-div img{
+    margin-left: 0%;
+    height: 40px;
+}
+
+.form-frame-top{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.x-button{
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+}
+
+
+.x-button a{
+    color: black;
+    text-decoration: none;
+}
+
+
+a, p, h1, label, span, input::placeholder, button{
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 600;
+}
