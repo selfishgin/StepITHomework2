@@ -28,7 +28,6 @@ a, p, h1, h3, span, input::placeholder, button{
     top: 50%;
     left: 50%;    
     transform: translate(-50%, -50%); */
-    
     position:fixed;
     top: 50%;
     left: 50%;
@@ -36,6 +35,7 @@ a, p, h1, h3, span, input::placeholder, button{
     z-index:100;
     border-radius: 8px;
 }
+
 
 .top-header-div{
     background-color: white;
