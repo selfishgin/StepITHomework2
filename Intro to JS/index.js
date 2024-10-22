@@ -1,35 +1,19 @@
-let grade = 73
-let letterGrade = null
-
-if(0 <= grade && grade < 50){
-    letterGrade = "F"
-}else if(50 <= grade && grade < 65){
-    letterGrade = "D"
-}else if(65 <= grade && grade < 75){
-    letterGrade = "C"
-
-}else if(75 <= grade && grade < 85){
-    letterGrade = "B"
-
-}else if(85 <= grade && grade <= 100){
-    letterGrade = "A"
-
-}
-
-switch(letterGrade){
-    case "A":
+// let grade = 75
+let grade = prompt("Please enter the grade: "); // 1-ci line-dakini commentden cixardib 2-ci line-i commente salsaq isleyir. men elave input qoymaq istedim
+switch(true){
+    case (grade >= 85 && grade <= 100):
         console.log("Your grade is A!")
         break;
-    case "B":
+    case (grade >= 75 && grade < 85):
         console.log("Your grade is B!")
         break;
-    case "C":
+    case (grade >= 65 && grade < 75):
         console.log("Your grade is C!")
         break;
-    case "D":
+    case (grade >= 50 && grade < 65):
         console.log("Your grade is D!")
         break;
-    case "F":
+    case (grade >= 0 && grade < 50):
         console.log("Your grade is F!")
         break;
     default:
