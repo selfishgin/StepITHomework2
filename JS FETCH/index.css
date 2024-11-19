@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.user-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+.user-item:hover {
+    background-color: #eaeaea;
+}
+.user-details {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
