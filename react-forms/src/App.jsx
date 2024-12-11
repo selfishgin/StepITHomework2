@@ -1,18 +1,26 @@
+// App.jsx
+import Login from "./login/Login" 
+import {BrowserRouter, Routes, Route} from "react-router";
 import Homepage from "./homepage/Homepage"
-import ProductCard from "./homepage/components/ProductCard"
 import Register from "./register/Register"
-import React from "react"
+import React, { createContext, useState } from "react"
 
+export const ThemeContext = createContext("light")
 
 const App = () => {
 
+  const [theme, setTheme] = useState("light")
 
   return (
-    <>
-    {/* <Register/>*/}
-    {/* <Login/>*/}
-    <Homepage/>
-    </>
+    <ThemeContext.Provider value={{theme, setTheme}}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homepage/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/register" element={<Register/>}/>         
+        </Routes>
+      </BrowserRouter>
+    </ThemeContext.Provider>
 
   )
 }
